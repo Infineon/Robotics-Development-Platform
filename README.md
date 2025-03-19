@@ -44,6 +44,28 @@ SPDX-License-Identifier: MIT
 - Support for SBUS protocol for FrSky remote control
 - Support for 1 Mbps CAN
 
+#### IMR XMC1404 LED Control
+
+- <a href="https://github.com/Infineon/IMR_XMC1404_LED" target="_blank" rel="noreferrer noopener">Github Link</a>
+- RGB-LED control software based on 32-bit XMC™ 1404 microcontroller
+- Support for dynamic LED modes e.g. pulsing and chasing with various colors
+- Support for 1 Mbps CAN
+<!--
+#### IMR Navigation
+
+- <a href="https://github.com/Infineon/IMR_nVIDIA_JONX_Navigation" target="_blank" rel="noreferrer noopener">Github Link</a>
+- Autonomous navigation implemented in nVIDIA Jetson Orin NX 8 GB development kit with 2x hybrid-ToF cameras (by Infineon, pmdtechnologies, and Ofilm) and Wi-Fi 6E module based on CYW55573
+- SLAM and obstacle avoidance capabilities accompanied with LED effects
+- ROS framework with Google Cartographer and DWA path planner
+- Support for 1 Mbps CAN
+
+#### IMR Navigation GUI
+
+- <a href="https://github.com/Infineon/IMR_Navigation_GUI" target="_blank" rel="noreferrer noopener">Github Link</a>
+- Graphic User Interface to complete the IMR autonomous navigation experience
+- Ubuntu 22.04 host laptop with connection to a router and nVIDIA Jetson Orin NX in IMR
+- User input / command for navigation target and LED modes and colors -->
+
 ### GaN Matchbox
 
 - <a href="https://github.com/Infineon/REF_MTR_48V30A_GaN" target="_blank" rel="noreferrer noopener">Github Link</a>
