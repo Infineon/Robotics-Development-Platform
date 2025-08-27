@@ -83,6 +83,15 @@ SPDX-License-Identifier: MIT
 - Equation-based stall detection
 - Operating voltage up to 40 V and power output up to 220 W in a PCB of 40 mm diameter with inner hole of 9 mm diameter
 
+### PSOC™ Control C3 Dual-Motor Control
+
+- <a href="https://github.com/Infineon/IMR_REF_48V_2x1KW_ASFOC" target="_blank" rel="noreferrer noopener">Github Link</a>
+- Dual-motor control software based on 32-bit PSOC™ Control C3 microcontroller
+- Angle-sensor-based Field Oriented Control (FOC) algorithm in Rotor Frame Orientation (RFO) method
+- Operating voltage up to 60 V and power output up to 1 kW per motor (total 2 kW) in 100 x 80 x 20 mm envelope size
+- Separate power stage board and microcontroller card enabling flexible design for different power level and/or inverter type
+- CAN communication with other subsystems in an application
+
 <!---
 ### Contact
 In case of questions regarding this repository and its contents, refer to [MAINTAINERS.md](MAINTAINERS.md) for the contact details of this project's maintainers.
