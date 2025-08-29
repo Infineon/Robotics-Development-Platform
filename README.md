@@ -19,19 +19,20 @@ SPDX-License-Identifier: MIT
 ### Infineon Mobile Robot (IMR) software repositories
 - <a href="https://www.infineon.com/cms/de/applications/robotics/development-platform/" target="_blank" rel="noreferrer noopener">Demo boards reference</a>
 
-#### IMR PSoC6 Battery Management
+#### IMR PSOC™ 6 Battery Management
 
 - <a href="https://github.com/Infineon/IMR_PSoC6_BMS" target="_blank" rel="noreferrer noopener">Github Link</a>
-- Battery Management software based on dual-core 32-bit PSoC™ 6 microcontroller
+- Battery Management software based on dual-core 32-bit PSOC™ 6 microcontroller
 - 12-cell in series battery management system
 - 30 V – 50.4 V voltage range
 - Support for 1 Mbps CAN and 5 Mbps CAN-FD
 - SoC and SoH estimation, balancing and pre-charge algorithm
 - Hot-plug support, real-time data recording, and extensive diagnostic system
 
-#### IMR IMD701A Motor Control
+#### IMR Single-Motor Control
 
 - <a href="https://github.com/Infineon/IMR_IMD701_MC" target="_blank" rel="noreferrer noopener">Github Link</a>
+- Motor control solution based on integrated motor drive IC i.e. MOTIX™ IMD701A (microcontroller + 3-phase gate driver)
 - Motor control software based on 32-bit XMC™ 1404 microcontroller
 - Field Oriented Control (FOC) algorithm with position sensing feedback using magnetic angle sensor TLI5012B E1000
 - Operating voltage up to 50 V and power output up to 280 W
@@ -64,7 +65,7 @@ SPDX-License-Identifier: MIT
 - <a href="https://github.com/Infineon/IMR_Navigation_GUI" target="_blank" rel="noreferrer noopener">Github Link</a>
 - Graphic User Interface to complete the IMR autonomous navigation experience
 - Ubuntu 22.04 host laptop with connection to a router and nVIDIA Jetson Orin NX in IMR
-- User input / command for navigation target and LED modes and colors -->
+- User input / command for navigation target and LED modes and colors
 
 ### GaN Matchbox
 
@@ -72,11 +73,13 @@ SPDX-License-Identifier: MIT
 - Motor control software based on 32-bit XMC™ 4200 microcontroller with high resolution PWM
 - (Position) Sensorless Field Oriented Control (FOC) algorithm aided with magnetic current sensor TLI4971
 - 3-phase GaN HEMT inverter for high pole-pair number of PMSM motor
-- High switching frequency and top-side cooling
+- High switching frequency and top-side cooling -->
 
-### IMD701A Compact Motor Control
+<br><br>
+### Compact Single-Motor Control
 
 - <a href="https://github.com/Infineon/REF_36V_220W_SLFOC" target="_blank" rel="noreferrer noopener">Github Link</a>
+- Motor control solution based on integrated motor drive IC i.e. MOTIX™ IMD701A (microcontroller + 3-phase gate driver) in a compact PCB design
 - Motor control software based on 32-bit XMC™ 1404 microcontroller
 - (Position) Sensorless Field Oriented Control (FOC) algorithm 
 - Speed control and position control schemes
@@ -86,6 +89,7 @@ SPDX-License-Identifier: MIT
 ### PSOC™ Control C3 Dual-Motor Control
 
 - <a href="https://github.com/Infineon/IMR_REF_48V_2x1KW_ASFOC" target="_blank" rel="noreferrer noopener">Github Link</a>
+- Single microcontroller controlling 2 motors independently
 - Dual-motor control software based on 32-bit PSOC™ Control C3 microcontroller
 - Angle-sensor-based Field Oriented Control (FOC) algorithm in Rotor Frame Orientation (RFO) method
 - Operating voltage up to 60 V and power output up to 1 kW per motor (total 2 kW) in 100 x 80 x 20 mm envelope size
